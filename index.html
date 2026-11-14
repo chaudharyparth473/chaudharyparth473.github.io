@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parth Chaudhary — Cybersecurity student, Gandhinagar</title>
+  <meta name="description" content="Parth Chaudhary is a cybersecurity student in Gandhinagar who builds password vaults, phishing checkers and lab exploits, plays football and climbs Himalayan peaks.">
+  <meta name="theme-color" content="#ece6d8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314130f'/%3E%3Cpath d='M10 48 26 22l8 12 6-9 14 23z' fill='%23e4572e'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <svg class="contours" id="contours" aria-hidden="true" preserveAspectRatio="xMidYMid slice"></svg>
+
+  <header class="top">
+    <a class="mark" href="#top" aria-label="Parth Chaudhary, back to top">P<span>.</span>C</a>
+    <nav aria-label="Primary">
+      <a class="opt" href="#about">About</a>
+      <a class="opt" href="#work">Work</a>
+      <a class="opt" href="#trail">Trail log</a>
+      <a class="opt2" href="#certs">Certificates</a>
+      <a class="opt" href="#offduty">Off duty</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- three-dot quick access to certificate categories -->
+  <div class="dots" id="dots">
+    <button class="dots-btn" id="dotsBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="dotsMenu" aria-label="Quick access to certificates">
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+    <div class="menu dots-menu" id="dotsMenu" role="menu" hidden>
+      <p class="mono small menu-title">Evidence locker</p>
+      <a role="menuitem" href="#certs" data-filter="all">All certificates <b data-count="all"></b></a>
+      <a role="menuitem" href="#certs" data-filter="edu">Education <b data-count="edu"></b></a>
+      <a role="menuitem" href="#certs" data-filter="sports">Sports <b data-count="sports"></b></a>
+      <a role="menuitem" href="#certs" data-filter="physical">Physical <b data-count="physical"></b></a>
+      <a role="menuitem" href="#certs" data-filter="college">Represented my college <b data-count="college"></b></a>
+    </div>
+  </div>
+
+  <aside class="altimeter" aria-hidden="true">
+    <div class="alt-track"><div class="alt-fill" id="altFill"></div></div>
+    <div class="alt-read"><b id="altFt">0</b><span>ft</span><em id="altName">Gandhinagar</em></div>
+  </aside>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <p class="mono tag reveal">Gandhinagar, Gujarat · 23.22° N, 72.65° E</p>
+      <h1 class="reveal">
+        <span class="line">Parth</span>
+        <span class="line"><em>Chaudhary</em><i class="dot">.</i></span>
+      </h1>
+      <div class="hero-grid">
+        <p class="lede reveal">I break into things, politely, inside a lab, so I can learn how to build locks that actually hold. Cybersecurity student by trade. Football player and mountain-walker by habit.</p>
+        <div class="hero-side reveal">
+          <div class="term" role="group" aria-label="Summary of who I am, styled as a terminal">
+            <div class="term-bar mono small" aria-hidden="true"><i></i><i></i><i></i><span>parth@gandhinagar: ~</span></div>
+            <pre class="term-body mono" id="term"><span class="cmd">whoami</span>
+<span class="out">parth.chaudhary // IT student</span>
+<span class="cmd">cat focus.txt</span>
+<span class="out">M.Sc. Cyber Security &amp; Digital Forensics
+BCA, first class with distinction</span>
+<span class="cmd">ls evidence/ | wc -l</span>
+<span class="out" id="termCount">23</span>
+<span class="cmd">echo $LOOKING_FOR</span>
+<span class="out">entry-level security analyst / trainee role</span><span class="caret" aria-hidden="true"></span></pre>
+          </div>
+          <div class="btns">
+            <a class="btn solid" data-magnetic href="#work"><span>See what I've built</span></a>
+            <a class="btn" data-magnetic href="assets/Parth_Chaudhary_Resume.docx" download><span>Resume</span></a>
+          </div>
+        </div>
+      </div>
+      <p class="scroll-cue mono small" aria-hidden="true">scroll to climb ↓</p>
+    </section>
+
+    <div class="strip" aria-hidden="true">
+      <div class="strip-inner">
+        <span>VAPT</span><span>Python</span><span>Secure code review</span><span>Kali Linux</span><span>Digital forensics</span><span>Java</span><span>Nmap</span><span>Metasploit</span>
+        <span>VAPT</span><span>Python</span><span>Secure code review</span><span>Kali Linux</span><span>Digital forensics</span><span>Java</span><span>Nmap</span><span>Metasploit</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about wrap" id="about">
+      <p class="mono tag reveal"><span class="n">01</span> About</p>
+      <div class="about-grid">
+        <h2 class="reveal">Hi. Pull up a chair.</h2>
+        <div class="prose reveal">
+          <p>I'm Parth. I started out in a BCA program writing PHP and HTML for little websites, and somewhere along the way I got more curious about how those websites get <em>broken</em> than how they get built. That curiosity turned into cybersecurity, and now I'm doing a master's in it.</p>
+          <p>What I like most is the moment something clicks: a port scan that shows a door nobody meant to leave open, or a one-line fix that turns a SQL injection into a boring, harmless error. I like small tools that do one job and explain themselves, which is why my projects are a password vault and a link checker rather than a giant platform. My master's adds the other half of the story: digital forensics, working out what happened after the door was already opened.</p>
+          <p>Away from the keyboard I play football (I'm slightly smug about the 1st rank at our college sports day) and I walk up mountains. Sar Pass, Kedarkantha and Friendship Peak so far, with the last one reaching 17,350 ft. Hiking turns out to be good practice for security work: you plan, you check your gear twice, and you don't skip the boring safety steps.</p>
+          <p>I'm looking for an entry-level cybersecurity analyst or security trainee role where I can keep learning from people better than me.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work" id="work">
+      <div class="wrap">
+        <p class="mono tag reveal"><span class="n">02</span> Work, newest first</p>
+        <h2 class="work-title reveal">Things I built to <em>understand</em> how they break.</h2>
+
+        <!-- Featured -->
+        <article class="card feature reveal" data-tilt>
+          <div class="feature-meta mono small">
+            <span>Oct 2026</span><span>IBM Cybersecurity course</span>
+          </div>
+          <h3>VaultGuard</h3>
+          <p class="sub">A password vault that never leaves your laptop.</p>
+          <div class="cols">
+            <p>It began as a command-line vault with a strong-password generator, and the version on GitHub now wears a dark Tkinter GUI. Everything stays offline. Your master password is stretched with scrypt, and the vault itself is sealed with AES-256-GCM, so tampering gets caught instead of silently decrypted into garbage.</p>
+            <p>It's one Python file with one dependency. I also wrote 23 security tests for it, because I didn't want to just trust my own crypto and hope for the best.</p>
+          </div>
+          <ul class="stack mono" aria-label="Tech stack">
+            <li>Python</li><li>Tkinter</li><li>AES-256-GCM</li><li>scrypt</li><li>23 tests</li>
+          </ul>
+          <a class="link" href="https://github.com/chaudharyparth473/VaultGuard-Encrypted-Password-Vault" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <div class="grid">
+          <article class="card reveal" data-tilt>
+            <div class="feature-meta mono small"><span>Mini project</span><span>Educational</span></div>
+            <h3>Phishing Detector</h3>
+            <p class="sub">Paste a link. Get a verdict, plus the reasons.</p>
+            <p>A rule-based tool that scores a URL as LOW, MEDIUM or HIGH phishing risk and tells you <em>why</em>, using 12 heuristic checks. It never visits the link, so you can't get caught by the thing you're inspecting, and there's nothing to install.</p>
+            <ul class="stack mono"><li>Python</li><li>Heuristics</li><li>12 checks</li></ul>
+            <a class="link" href="https://github.com/chaudharyparth473/phishing-detector" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="card reveal" data-tilt>
+            <div class="feature-meta mono small"><span>Oct 2026</span><span>IBM Cybersecurity course</span></div>
+            <h3>Shift-left code review</h3>
+            <p class="sub">Catch the bug before it ships.</p>
+            <p>I took a sample web app and hunted down three classes of problems: SQL injection, passwords written to logs in plain text, and weak cryptographic dependencies. I scanned it with IBM Bob and Snyk (static and dependency analysis), wrote a custom rule file for automated review, swapped <code>Statement</code> for <code>PreparedStatement</code>, and then proved every fix with a test.</p>
+            <ul class="stack mono"><li>Java</li><li>IBM Bob</li><li>Snyk SAST + SCA</li><li>SQLi</li></ul>
+          </article>
+
+          <article class="card wide reveal" data-tilt>
+            <div class="feature-meta mono small"><span>Academic lab</span><span>M.Sc. / BCA coursework</span></div>
+            <h3>VAPT lab: scan, then break in</h3>
+            <p class="sub">Practice on a test box I'm allowed to wreck.</p>
+            <p>Nmap to find open ports and running services, Metasploit to see how an attacker actually walks through the door. All of it on an isolated test environment, because the point is to learn the attacker's mindset, not to hurt anyone.</p>
+            <ul class="stack mono"><li>Kali Linux</li><li>Nmap</li><li>Metasploit</li></ul>
+          </article>
+        </div>
+
+        <div class="earlier reveal">
+          <h3 class="mono small">Before security: the web-dev years</h3>
+          <ul>
+            <li><a href="https://github.com/chaudharyparth473/Elite_Print" target="_blank" rel="noopener"><b>Elite Print</b><span class="mono small">PHP</span></a></li>
+            <li><a href="https://github.com/chaudharyparth473/National-Print-Solution" target="_blank" rel="noopener"><b>National Print Solution</b><span class="mono small">PHP</span></a></li>
+            <li><a href="https://github.com/chaudharyparth473/CareerBridge_Placement" target="_blank" rel="noopener"><b>CareerBridge Placement</b><span class="mono small">HTML · CSS</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAIL LOG -->
+    <section class="trail wrap" id="trail">
+      <p class="mono tag reveal"><span class="n">03</span> Trail log</p>
+      <h2 class="reveal">School, work and the paper trail, in order.</h2>
+      <ol class="log">
+        <li class="reveal"><time class="mono">Oct 2026</time>
+          <div><h3>IBM SkillsBuild Cybersecurity BootCamp</h3>
+          <p>Two weeks with IBM and BharatCares, plus the Cybersecurity Fundamentals badge. This is where VaultGuard and the shift-left project came from.</p></div></li>
+        <li class="reveal"><time class="mono">2026 →</time>
+          <div><h3>M.Sc. Cyber Security &amp; Digital Forensics</h3>
+          <p>Institute of Advanced Research, Gandhinagar. Semester one: VAPT, digital forensics, cloud computing, cyber law.</p></div></li>
+        <li class="reveal"><time class="mono">Aug 2026</time>
+          <div><h3>Cyber Security certifications, Mind Luster</h3>
+          <p>More structured practice on the fundamentals.</p></div></li>
+        <li class="reveal"><time class="mono">Dec 2025 – Jan 2026</time>
+          <div><h3>Python Development Intern, Tanish Info Services</h3>
+          <p>120 hours in a real project team in Gandhinagar, writing Python for real-world client work and shipping what I was assigned.</p></div></li>
+        <li class="reveal"><time class="mono">Jan 2026</time>
+          <div><h3>Merit Scholarship, KSV</h3>
+          <p>Awarded for academic year 2024–25 under the Shri Maneklal M. Patel Memorial programme.</p></div></li>
+        <li class="reveal"><time class="mono">Jul – Aug 2025</time>
+          <div><h3>IEEE: Entrepreneurship Boot Camp, ERTE 2025 and a GitHub &amp; LeetCode session</h3>
+          <p>AI for Smart Cities and Industry 5.0, startup thinking, and how to make a GitHub profile look like you mean it.</p></div></li>
+        <li class="reveal"><time class="mono">2025</time>
+          <div><h3>Bharatiya Antariksh Hackathon, ISRO</h3>
+          <p>Submitted an idea to the national space hackathon.</p></div></li>
+        <li class="reveal"><time class="mono">2024 – 2025</time>
+          <div><h3>Leadership &amp; community</h3>
+          <p>Sarva Netrutva, a five-day leadership programme (Jul 2024). Entrepreneur Fiesta as participant and volunteer (Dec 2025). Life Skills Program, NSS Yoga Day, Sangat youth festival and a Gujarat Forest Department communication training along the way.</p></div></li>
+        <li class="reveal"><time class="mono">May 2023 – Oct 2026</time>
+          <div><h3>BCA, B.P. College of Computer Studies (KSV)</h3>
+          <p>Graduated with First Class with Distinction.</p></div></li>
+      </ol>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="certs wrap" id="certs">
+      <p class="mono tag reveal"><span class="n">04</span> Evidence locker</p>
+      <h2 class="reveal">Every certificate, filed and hashed.</h2>
+      <p class="certs-intro reveal">Open any of them straight from here. The <span class="kebab-inline" aria-hidden="true">⋮</span> menu on each card lets you view it, download it, or copy its SHA-256 so you can verify the file hasn't been touched. That's the forensics student in me.</p>
+      <div class="filters" id="filters" role="group" aria-label="Filter certificates by category"></div>
+      <ul class="cert-grid" id="certGrid"></ul>
+      <noscript><p class="certs-intro">Turn on JavaScript to browse the certificates, or open the <code>assets/certs</code> folder directly.</p></noscript>
+    </section>
+
+    <!-- OFF DUTY -->
+    <section class="offduty" id="offduty">
+      <div class="wrap">
+        <p class="mono tag reveal"><span class="n">05</span> Off duty</p>
+        <h2 class="reveal">Where the other half of me lives.</h2>
+        <div class="stats">
+          <div class="stat reveal"><b data-count="17350">17,350</b><span class="mono small">ft · Friendship Peak summit, Himachal, Jun 2025</span></div>
+          <div class="stat reveal"><b data-count="13850">13,850</b><span class="mono small">ft · Sar Pass, Himachal, 2024</span></div>
+          <div class="stat reveal"><b>1<sup>st</sup></b><span class="mono small">rank · football, Sports Day UDAAN, Feb 2026</span></div>
+        </div>
+        <p class="offduty-copy reveal">I also played for the KSV football team at the West Zone Inter-University competition in January 2026, and trekked Kedarkantha in Uttarakhand in 2024. Football taught me to show up and cover for teammates. The mountains taught me that the summit is optional and the preparation isn't.</p>
+      </div>
+    </section>
+
+    <!-- KIT -->
+    <section class="kit wrap" aria-labelledby="kit-h">
+      <h2 class="mono small" id="kit-h">The kit</h2>
+      <dl>
+        <div class="reveal"><dt>Security</dt><dd>VAPT · Network security · Secure code review · Digital forensics · Password security · Cyber law</dd></div>
+        <div class="reveal"><dt>Tools</dt><dd>Kali Linux · Metasploit · Nmap · Nessus · Snyk · IBM Bob · Git</dd></div>
+        <div class="reveal"><dt>Code</dt><dd>Python · Java · C · C++ · PHP · HTML · CSS</dd></div>
+        <div class="reveal"><dt>Data</dt><dd>DBMS · MongoDB</dd></div>
+      </dl>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <p class="mono tag reveal"><span class="n">06</span> Contact</p>
+        <h2 class="reveal">Got a junior security role,<br>or a bug I should look at?</h2>
+        <a class="mail reveal" data-magnetic href="mailto:chaudharyparth2903@gmail.com"><span>chaudharyparth2903@gmail.com</span></a>
+        <ul class="socials mono reveal">
+          <li><a href="https://github.com/chaudharyparth473" target="_blank" rel="noopener">GitHub ↗</a></li>
+          <li><a href="https://www.linkedin.com/in/parth-chaudhary-077a93436" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="assets/Parth_Chaudhary_Resume.docx" download>Resume ↓</a></li>
+        </ul>
+      </div>
+      <footer class="wrap mono small">
+        <span>© <span id="year">2026</span> Parth Chaudhary</span>
+        <span>Hand-written HTML, CSS and a little JavaScript. No framework needed.</span>
+      </footer>
+    </section>
+  </main>
+
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <script src="js/certs.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
