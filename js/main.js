@@ -235,25 +235,8 @@
     }
   }
 
-  /* ── Custom cursor + magnetic buttons ── */
+  /* ── Magnetic buttons and card tilt (system cursor is kept) ── */
   if (fine && !reduce) {
-    const cur = $('#cursor');
-    let cx = 0, cy = 0, tx = 0, ty = 0;
-    document.body.classList.add('has-cursor');
-    addEventListener('pointermove', (e) => {
-      tx = e.clientX; ty = e.clientY; cur.classList.add('on');
-    }, { passive: true });
-    document.addEventListener('mouseleave', () => cur.classList.remove('on'));
-    (function follow() {
-      cx += (tx - cx) * 0.2; cy += (ty - cy) * 0.2;
-      cur.style.transform = `translate(${cx}px, ${cy}px)`;
-      requestAnimationFrame(follow);
-    })();
-    $$('a, button, [data-tilt]').forEach((el) => {
-      el.addEventListener('mouseenter', () => cur.classList.add('big'));
-      el.addEventListener('mouseleave', () => cur.classList.remove('big'));
-    });
-
     $$('[data-magnetic]').forEach((el) => {
       const inner = el.firstElementChild;
       el.addEventListener('pointermove', (e) => {

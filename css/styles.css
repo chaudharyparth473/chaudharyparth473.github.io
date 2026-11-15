@@ -223,11 +223,6 @@ main,.top,.altimeter{position:relative;z-index:1}
 .toast{position:fixed;left:50%;bottom:1.5rem;transform:translateX(-50%);background:var(--ink);color:var(--snow);font-family:var(--mono);font-size:.8rem;padding:.7rem 1.1rem;border-radius:999px;z-index:300;animation:pop .25s var(--ease)}
 
 /* ───────── Cursor ───────── */
-.cursor{position:fixed;left:0;top:0;width:34px;height:34px;margin:-17px 0 0 -17px;border:1.5px solid var(--flare);border-radius:50%;pointer-events:none;z-index:200;opacity:0;transition:width .3s var(--ease),height .3s var(--ease),margin .3s var(--ease),background .3s,opacity .3s}
-.cursor.on{opacity:1}
-.cursor.big{width:64px;height:64px;margin:-32px 0 0 -32px;background:rgba(228,87,46,.18)}
-@media (hover:hover) and (pointer:fine){body.has-cursor,body.has-cursor a{cursor:none}}
-@media (hover:none),(pointer:coarse){.cursor{display:none}}
 
 /* ───────── Responsive ───────── */
 @media (max-width:900px){
